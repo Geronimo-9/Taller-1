@@ -12,7 +12,7 @@ public class Libro {
 
 
 
-    public Libro(String titulo, String autor, int numeroPaginas){
+    public Libro (String titulo, String autor, int numeroPaginas){
         this.titulo = titulo;
         this.autor = autor;
         this.numeroPaginas = numeroPaginas;
