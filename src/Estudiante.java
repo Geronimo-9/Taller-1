@@ -33,4 +33,6 @@ this.edad = edad;
 public String toString(){
     return "Nombre: "+nombre+" Edad: "+edad+" Curso: "+curso+" ";
 }
+
+
 }

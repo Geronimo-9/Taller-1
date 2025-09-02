@@ -18,13 +18,14 @@ Libro l2 = new Libro("Mi primera vez", "Guillermo", 200);
 
 //CLase Estudiante, ejercicio 3
 Estudiante e1 = new Estudiante();
-Estudiante e2 = new Estudiante("Mariano", 34, "Semestre 7");
-Estudiante e3 = new Estudiante("Carlos", 90);
+Estudiante e2 = new Estudiante("Carlos", 90); //sale null debido al meetodo toString()
+Estudiante e3 = new Estudiante("Mariano", 34, "Semestre 7");
+
 
         System.out.println(e1);
+
         System.out.println(e2);
         System.out.println(e3);
-
 
 
 
